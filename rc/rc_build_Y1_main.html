@@ -1,0 +1,481 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN">
+<html lang="ja">
+
+  <head>
+	<meta http-equiv="Content-Language" content="ja">
+	<meta http-equiv="Content-Type" content="text/html; charset=shift_jis">
+	<LINK href="../data/antinn.css" type=text/css rel=stylesheet>
+	<LINK href="../data/tnanchor.css" type=text/css rel=stylesheet>
+	<LINK href="../data/tnclass.css" type=text/css rel=stylesheet>
+	<LINK href="../data/tnstyle.css" type=text/css rel=stylesheet>
+	<LINK href="../data/tntable.css" type=text/css rel=stylesheet>
+	<LINK href="../data/yadd.css" type=text/css rel=stylesheet>
+
+	<title>Ypsilon の製作</title>
+  </head>
+
+  <body>
+	<h1> Ypsilon (イプシロン) プロジェクト</h1>
+      <img src="img/y-2.png" width="160" height="160" alt="いぷしろん" style="float:left;">
+	<p> その昔、そろそろSAL機に手をつけようかなということになって、いろいろ購入候補をあたっているときに
+	  Super Gee 2(SG2)に出会ったのです。その設計のポリシーの確かさと、何より製作技法を含めてすべてを公開して
+	  共有してしまおうというMark Drela氏に強力に惹かれてしまい、いつかはSG2をと思っていました<br>
+	  そのときはFire Works III を手に入れることにしました。いきなり自作って言うわけにもいかないので。
+	  あちこち修理したりしながらFWIIIをいじって、SAL機ってどんなものかっていうのがおぼろげながら
+	  わかったところで自作に手をつけることにしたわけです。</p>
+	<p> で、はじめてみるとこれがまた材料にしても工法にしてもわからないことばかり。「こりゃ一大プロジェクトだ」と
+	  いうことで「Yプロジェクト」と命名して、くじけないようにしてみました。<br><br>
+	  
+	  かれこれ3年近く続いているプロジェクトですが、去年までの目標は「直貼り主翼のちゃんと飛ぶDLGを作ること」
+	  でした。今後の目標は2つ。
+	  <ul>
+		<li>空力的により洗練させる<br>
+		主翼のマウント周りの改善とか、RDSの採用とか</li>
+		<li>より広い気象条件に対応できるようにする<br>
+		バラストの搭載とか主翼の翼型や平面形の検討</li>
+	  </ul>
+	</p>
+	<br>
+	
+	<p style="clear:both;">
+	  こんな感じで進めていきます。
+	</p>
+
+	<br>
+	<p>SG2の図面は、<a href="http://www.charlesriverrc.org/articles/supergee/SuperGeeII.htm">Charls river RCのサイト</a>にあります。<br>
+	</p>
+	<br>
+	
+	<h3>プロジェクトの成果物 </h3>
+	<p>
+	  まずは一覧。
+	</p>
+
+	<table>
+	  <tr>
+		<td>&nbsp;</td><td>0号機重いVer.</td><td>0号機軽いVer.</td><td>1号機 フラッペロン</td><td>2号機 フラップ/エルロン</td>
+		<tr>
+		  <td> 全備重量  </td><td>260g</td><td>247g</td><td>237g(修理後)</td><td>236g</td>
+		</tr>
+		<tr>
+		  <td>翼長</td><td>  1500mm</td><td> &lt;--</td><td> &lt;--</td><td> &lt;--</td>
+		</tr>
+		<tr>
+		  <td>翼面積</td><td> 22.2dm^2</td><td> &lt;--</td><td> &lt;--</td><td> &lt;--</td>
+		</tr>
+		<tr>
+		  <td>翼面荷重</td><td>  11.7g/dm^2</td> <td> 11.1g/dm^2</td><td> 10.7g/dm^2</td><td> 10.6g/dm^2</td>
+		</tr>
+		<tr>
+		  <td>受信機</td><td>  Berg*4 stamp</td><td> &lt;--</td><td>  Berg 4L 改</td><td>  Berg 4L 改</td>
+		</tr>
+		<tr>
+		  <td>ラダー</td><td>  JR DS381</td><td> &lt;--</td><td> &lt;--</td><td> クラフトルーム c0714</td>
+		</tr>
+		<tr>
+		  <td>エレベータ</td><td>  GWS Pico STD</td><td> &lt;--</td><td>  GWS Pico BB</td><td> &lt;--</td>
+		</tr>
+		<tr>
+		  <td>エルロン</td><td>  OK 1809x2</td><td> &lt;--</td><td> &lt;--</td><td>  OK 1108x2</td>
+		</tr>
+		<tr>
+		  <td>フラップ</td><td> なし</td><td> なし</td><td> なし</td><td>  OK 1108x2</td>
+		</tr>
+		<tr>
+		  <td>バッテリ</td><td>  NiMH 300mAh</td><td> NiMH 150mAh</td><td> NiMH 150mAh</td><td> NiMH 195mAh</td>
+		</tr>
+		<tr>
+		  <td>重心</td><td>  78mm</td><td> 80mm</td><td> 85mm</td><td> 88mm</td>
+		</tr>
+
+	  </table>
+
+<h4>2号機 </h4>
+<p>
+  エルロンとフラップを装備した6サーボ機です。<br>
+  もともとは単なる興味で作ってみたのですが、これがなかなかしっくりくるフィーリングで、今後はずっとこれで行こう
+  と思ってます<br>
+  <ul>
+	<li>ランチ時のヨーは主翼外側にサーボがあるせいで、1号機に比べて強め。<br>
+	  とはいえ、全般的に考えて重い主翼ではないせいもあってか、ラダーへのランチプリセットで
+	  対応してしまえば問題なし。</li>
+	<li>旋回開始時のピッチ方向の変化は少ないような気がする<br>
+	  気がするだけかも知れませんが、少なくとも現状はエルロンディファレンシャルは入れてません。</li>
+	<li>ブレーキをかけたときのピッチ方向の変化を少なくできる<br>
+      実はこれが「ずっとこれで行こう」と思わせてくれてます。<br>
+	  フラッペロンでないのでブレーキをかけながらちゃんとロールの制御ができることも利点ですが、それよりも、
+      バタフライミキシングを入れてほぼ水平姿勢のまま速度の調節ができるようになったことで、指定時間での
+	  キャッチを楽にすることができます。フラッペロンだとどうしても前のめりにせざるを得ないのでブレーキを
+	  解除したときに姿勢が乱れてしまい、のでそれを見越してマージンをとった操縦になってしまいます。</li>
+  </ul>
+  <br>
+  <p>
+	とまあ、こんな感じです。</p>
+  <br>
+  [[セッティング関連(1)]] ミキシング<br>
+  <ul>
+	<li>ブレーキ動作<br>
+	  ブレーキ時のフラップダウン量は45度くらいです。フラッターが出ないのを確認してから
+	  必要量に増やすつもりでセットした量なのですが、意外とこれで十分だったのでこのままに
+	  なってます。</li>
+	<li>ブレーキ->エルロン(バタフライ)ミキシング<br>
+	  この期に及んで何ですが、適当に50%に設定してあります。まだ少し頭下げ気味なのでもう少し増やしたほうが
+	  いいのかもしれません。</li>
+	<li>エルロン->ラダー<br>
+	  アドバースヨー打消しのために入ってます。32%。</li>
+	<li>ランチプリセット<br>
+	  ラダーに12%。 エレベータは無風時にアップ4.5%。 風が強いときは減らします。</li>
+	<li>モード<br>
+	  フラップとエルロンをAG455ctの規定どおりに設定。 エレベータの調整はトリムで。フラップダウンで少しダウンが
+	  入ります。</li>
+	<li>エルロンディファレンシャル<br>
+	  なし。</li>
+  </ul>
+
+  [[セッティング関連(2)]] 重心<br>
+  <p> 重心位置は最近よくわからなくなってしまってる。80mmくらいでもだいぶ敏感だなと思っていたのだけれど、ダイブテストや
+	背面でのテストなどでもう少しうしろ..もう少し..ってやってたら今は88mm位。ランチも安定してきたような気がするし
+	特に飛ばしにくいということもないのでこれで飛ばしてます。
+  </p>
+
+  [[メカ]]<br>
+  <p> エレベータのサーボはGWSのPicoなんですが、もう少しいいものに替えた方がいいかな。最近の流行は1108でしょうか。うーんちょっと高いんだよね。ニュートラルが甘いとかの問題もあまりないような気がするし。<br>
+	<br>
+	エルロンの1108は外側にはこれしか入らないということと、フラップ用も半分の面積だから小さくでいいだろうということで
+	これを選んだのだけれど、特に問題はないみたい。最近はフラッペロンに使っている人も多いみたいだから問題なしかな。
+  </p>
+
+  <table border="0" width="80%">
+	<tr>
+	  <td width="33%">
+		<p align="center">
+		  <a href="img/3db21daa.jpg" target=blank>
+			<img src="img/mini/3db21daa.jpg" alt="Ypsilon-0前" align="center"
+			  width="160" height="120" border="0"></a></p>
+	  </td>
+	  <td width="33%">
+		<p align="center">
+		  <a href="img/3534944c.jpg" target=blank>
+			<img src="img/mini/3534944c.jpg" alt="1号機前" align="center"
+			  width="160" height="120" border="0"></a></p>
+	  </td>
+	  <td width="33%">
+		<p align="center">
+		  <a href="img/997edaa9.jpg" target=blank>
+			<img src="img/mini/997edaa9.jpg" alt="Ypsilon-bottom" align="center"
+			  width="160" height="120" border="0"></a></p>
+	  </td>
+	</tr>
+	<tr>
+	  <td> 2号機です。</td>
+	  <td> 裏側は、三角模様。 4つのサーボが見えます。</td>
+	  <td> ペグです。1mmのバルサをカーボンのクロスとロービングで固めたもの。</td>
+	</tr>
+  </table>
+
+</p>
+
+
+<h4>1号機 </h4>
+<p>
+  グラス貼りでYマウントののSG2といえるのが1号機です。<br>
+  0号機でちゃんと作れるのがわかったので、2006年のメインとすべく作ったのですが、
+  最近は2号機ばかり飛ばしてます。<br>
+  飛びは素直で扱いが楽です。完全に腕が追いついてません。
+  <ul>
+	<li>主翼の出来がいいので、0号機に比べて浮きがいい<br>
+	  初飛行時の感想は「おいおいいつまでたってもおりてこないよー。うへへへへ。」</li>
+	<li>たぶん水平がフラッター気味だった<br>
+	  当初フルランチで尾翼がフラッターを起こしているようだったけど、その後落として修理/補強してしまった
+	  ので真相不明。2号機は同じ水平でも問題なし。</li>
+  </ul>
+  <br>
+
+  [[セッティング関連(1)]] ミキシング<br>
+  <ul>
+	<li>ブレーキ動作 <br>
+	  ブレーキ時のダウン量は60度くらい。</li>
+	<li>エルロン->ラダー<br>
+	  アドバースヨー打消しのために入ってます。30%。</li>
+	<li>ランチプリセット<br>
+	  ラダーに16%。 エレベータは無風時にアップ4%。 風が強いときは減らします。</li>
+	<li>モード<br>
+	  フラップとエルロンをAG455ctの規定どおりに設定。 エレベータの調整はトリムで。フラップダウンで少しダウンが
+	  入ります。</li>
+	<li>エルロンディファレンシャル<br>	  10%。</li>
+  </ul>
+
+  [[セッティング関連(2)]] 重心<br>
+  <p> 2号機のセッティングに合わせて最近は85mmくらいで飛ばしてます。
+  </p>
+
+  [[メカ]]<br>
+  <p> 受信機はBergの4chを6chに改造したもの。軽くて小さい6ch。
+  </p>
+
+  <table border="0" width="80%">
+	<tr>
+	  <td width="33%">
+		<p align="center">
+		  <a href="img/d9ec1270.jpg" target=blank>
+			<img src="img/d9ec1270.jpg" alt="1号機2号機" align="center"
+			  width="160" height="120" border="0"></a></p>
+	  </td>
+	  <td width="33%">
+		<p align="center">
+		  <a href="img/3ad3c981.jpg" target=blank>
+			<img src="img/mini/3ad3c981.jpg" alt="Ypsilon-0" align="center"
+			  width="160" height="120" border="0"></a></p>
+	  </td>
+	  <td width="33%">
+		<p align="center">
+		  <a href="img/2986423a.jpg" target=blank>
+			<img src="img/mini/2986423a.jpg" alt="Ypsilon-bottom" align="center"
+			  width="160" height="120" border="0"></a></p>
+	  </td>
+	</tr>
+	<tr>
+	  <td> 0/1/2号機です。</td>
+	  <td> 1号機</td>
+	  <td> 裏側は0号機とおなじ。</td>
+	</tr>
+  </table>
+
+</p>
+
+<h4>0号機 </h4>
+<p>
+  初めて作った直貼り主翼の機体です。<br>
+  製作途中でローラーにクロスが張り付いてしまってしわくちゃになってしまったり、
+  樹脂が足りなくなってあわてて調合したり、いろいろ失敗を重ねてやっと作ったので、
+  かなりひどいできですが、これはこれでよく飛んだのでYプロジェクトを続けているという
+  記念碑的な機体です。
+</p>
+
+<table border="0" width="80%">
+  <tr>
+    <td width="33%">
+      <p align="center">
+        <img src="img/mini/P10000501.jpg" alt="1号機2号機" align="center"
+		  width="160" height="120" border="0"></p>
+    </td>
+    <td width="33%">
+      <p align="center">
+        <a href="img/DSCN0164.jpg" target=blank>
+		  <img src="img/mini/dscn0160.jpg" alt="Ypsilon-0" align="center"
+            width="160" height="120" border="0"></a></p>
+    </td>
+    <td width="33%">
+      <p align="center">
+        <a href="img/DSCN0163.jpg" target=blank>
+		  <img src="img/mini/dscn0163.jpg" alt="Ypsilon-bottom" align="center"
+            width="160" height="120" border="0"></a></p>
+    </td>
+  </tr>
+  <tr>
+	<td> 左の機体は、自作の胴体にFW3の主翼がついています。</td>
+	<td> これがYpsilon 0号機。</td>
+	<td> 裏側はこんな感じ。しましまは視認性抜群。</td>
+  </tr>
+  <tr>
+    <td width="33%">
+      <p align="center">
+        <a href="img/DSCN0161.jpg" target=blank>
+		  <img src="img/mini/dscn0161.jpg" alt="Ypsilon-0前" align="center"
+			width="160" height="120" border="0"></a></p>
+    </td>
+    <td width="33%">
+      <p align="center">
+		<a href="img/DSCN0153.jpg" target=blank>
+		  <img src="img/mini/dscn0153.jpg" alt="1号機前" align="center"
+            width="160" height="120" border="0"></a></p>
+    </td>
+    <td width="33%">
+      <p align="center">
+        <a href="img/DSCN0162.jpg" target=blank>
+		  <img src="img/mini/dscn0162.jpg" alt="Ypsilon-bottom" align="center"
+            width="160" height="120" border="0"></a></p>
+    </td>
+  </tr>
+  <tr>
+	<td> Ypsilon0号機 を前から。上反角は7°</td>
+	<td> FW3の主翼と比べるとだいぶ大きなのが分かると思います。</td>
+	<td> ポッド。刺さっているのはスイッチで、ぶらんとしているのがバッテリチェッカ。</td>
+  </tr>
+  <tr>
+    <td width="33%">
+      <p align="center">
+        <a href="img/DSCN0148.jpg" target=blank>
+		  <img src="img/mini/dscn0148.jpg" alt="Ypsilon-0前" align="center"
+			width="160" height="120" border="0"></a></p>
+    </td>
+    <td width="33%">
+      <p align="center">
+		<a href="img/DSCN0154.jpg" target=blank>
+		  <img src="img/mini/dscn0154.jpg" alt="1号機前" align="center"
+            width="160" height="120" border="0"></a></p>
+    </td>
+    <td width="33%">
+      <p align="center">
+        <img src="img/mini/p10000491.jpg" alt="Ypsilon-bottom" align="center"
+		  width="160" height="120" border="0"></p>
+    </td>
+  </tr>
+  <tr>
+	<td> ペグ。SG2風だけれど、2mmのバルサにカーボンロービングのやっつけ仕事もの。</td>
+	<td> FW3の主翼なので、エルロンサーボはポッドにある。でも、そんな設計の
+	  ポッドじゃないのでこんな風にポッドからホーンが飛び出しています。</td>
+	<td> 重いバージョンは260g</td>
+  </tr>
+  <tr>
+    <td width="33%">
+      <p align="center">
+        <a href="img/p004.jpg" target=blank>
+		  <img src="img/mini/p004.jpg" alt="Ypsilon-0前" align="center"
+			width="160" height="120" border="0"></a></p>
+    </td>
+    <td width="33%">
+      <p align="center">
+		<img src="img/mini/p005.jpg" alt="1号機前" align="center"
+		  width="120" height="160" border="0"></p>
+    </td>
+    <td width="33%">
+      <p align="center">
+        <img src="img/mini/p006.jpg" alt="Ypsilon-bottom" align="center"
+		  width="120" height="160" border="0"></p>
+    </td>
+  </tr>
+  <tr>
+	<td> 軽いバージョンは247g</td>
+	<td> 重いバージョンの電池。1/2AAA×4サイズ</td>
+	<td> 軽いバージョンの電池。1/4AAA×4サイズ</td>
+  </tr>
+
+</table>
+
+
+
+<h2> 製作風景 </h2>
+<p> いまだにいろいろ試行錯誤中なので、この手順・構成でOKという確証があるわけではありません。
+  ちょっとづつ進めてます。
+</p>
+<h3>胴体の製作&nbsp;<font color=red>まだまだ途中</font></h3>
+<ul>
+  <!--
+	<li><a href="rc_build_Y1_pod.html" target=main>ポッドの作成</a></li>
+	<li><a href="rc_build_Y1_fuseassenble.html" target=main>全体の組み立て</a></li>
+	-->
+  <li><a href="rc_build_Y1_boom.html" target= main> ブームの加工 </a></li>
+  <li><a href="rc_build_Y1_vmount.html" target=main>Vマウントの製作 </a> </li>
+  <li><a href="rc_build_Y1_wingmount.html" target=main>主翼の取り付け部加工 (FW3流用バージョン)</a></li>
+  <li>主翼の取り付け部加工 (直貼り主翼バージョン)</li>
+  <li>ポッドの作成 (内骨格バージョン)  ＊＊こいつは強度が決定的に不足しているので、没＊＊</li>
+  <li>ポッドの作成 (SuperGeeコピーバージョン)</li>
+  <li>全体の組み立て</li>
+</ul>
+<h3>主翼の製作&nbsp;<font color=red>ぼちぼち作成中</font></h3>
+<p>
+  発泡コア直貼りの主翼をつくります。まずはグラスでつくって、工法が確立して失敗しなくなったらケブラーで作る予定です。<br>
+  <br>
+  製作にあたっての手順は、<a href=http://home.paonline.com/hayman/video.htm target=blank>VACUUM BAGGING MADE EASY</a>というビデオ
+  で紹介されている手法と全く同じです。このビデオ、直貼り主翼を作るのであれば、必見です。
+
+</p>
+<hr>
+<p>
+  <ul>
+	<li><a href="rc_build_Y1_wing_prepare.html" target= main>準備</a></li>
+	<li><a href="rc_build_Y1_wing_wing.html" target= main>コア作成</a></li>
+	<li><a href="rc_build_Y1_wing_bagging.html" target= main>バギング</a></li>
+	<li><a href="rc_build_Y1_wing_trim.html" target= main>整形</a></li>
+	<li>カンザシの作成</li>
+	<li>エルロンの切り出し</li>
+	<li>サーボと配線の穴を作る</li>
+	<li>左右翼の接合</li>
+	<li>マウントパイプの取り付け</li>
+	<li>サーボの取り付けとリンケージ</li>
+  </ul>
+
+</p>
+<h3>尾翼の製作&nbsp;<font color=red>そのうち</font></h3>
+<p>
+  尾翼は作り方は主翼とほぼ同じですが、水平尾翼のマウント部がポイントです。
+
+</p>
+<hr>
+<p>
+  <ul>
+	<li>コア作成</li>
+	<li>バギング</li>
+	<li>整形</li>
+	<li>水平尾翼のマウント部加工</li>
+	<li>ブームに取り付け</li>
+  </ul>
+
+</p>
+<h3>組み立てとリンケージ&nbsp;<font color=red>いつになったらできるだろう？</font></h3>
+<p>
+  最後の組み立てですが、もうやることはあまり残っていない。
+
+</p>
+<hr>
+<p>
+  <ul>
+	<li>組み立て</li>
+	<li>メカ積み</li>
+	<li>リンケージ</li>
+  </ul>
+
+</p>
+<hr>
+<p> 2セット目をバッグから出しました<br>
+  これも49g/m^2のグラスを使っています。補強の仕方はSG2の図面どおりです。</p>
+<p>
+  <a href="img/dscn0380.jpg" target="blank" ><img src="img/mini/dscn0380.jpg" width="160" height="120" class="thumb" alt="主翼表"></a>
+  <a href="img/dscn0381.jpg" target="blank" ><img src="img/mini/dscn0381.jpg" width="160" height="120" class="thumb" alt="主翼表"></a>
+  <a href="img/dscn0382.jpg" target="blank" ><img src="img/mini/dscn0382.jpg" width="160" height="120" class="thumb" alt="主翼裏"></a>
+  <br>
+  表と裏です。一枚目の写真はまだマイラーが張り付いているときのものです。マイラーに書いてあるガイドの書き込みが見えます。
+  今度は表の翼端をオレンジにしてみました。昔から使っているモチーフの、人呼んで「キリンバターン」になってます。視認性はどうでしょうね。
+  裏はしましま。<br>
+  今回はもう一つ、主翼にQRコードを入れてみました。僕の情報が入っているんですが、出来上がって試してみたら読み込めない...。残念。
+  ロゴとコードはティッシュペーパーにプリンタで印刷したものを一緒に積層してあります。
+  <br><br>
+  <img src="img/mini/dscn0383.jpg" width="160" height="120" class="thumb" alt="主翼表">
+  <img src="img/mini/dscn0385.jpg" width="160" height="120" class="thumb" alt="主翼表">
+  <br>
+  左翼が62g・右翼が61gです。1セット目が60.1gと61.2gだったので、わずかに重い！。うーん、かなり樹脂を絞ったはずなんだけれどなー。<br>
+  1セット目はサーボなしの状態で120gになったので、今度もそれくらいかな。全備重量も同じ程度ということかな。
+  <br><br>
+  <a href="img/P1000093.jpg" target="blank" ><img src="img/P1000093.jpg" width="160" height="120" class="thumb" alt="主翼裏"></a>
+  <br>
+  左右の接合が終わったところです。サーボ搭載部穴あけ・リンケージスペース掘り・前縁/後縁の整形・エルロンの切り出しをして接合してあります。
+  でも、これから、中央部の補強・パイロン用のパイプの取り付け・配線・サーボの取り付け・リンケージとまだまだ
+  やることがたくさん。接合部付近に見えるのは、補強をするためのマスキングテープ。
+</p>
+</p>
+<hr>
+<p> 並行して作っている3セット目もバッグから出しました<br>
+  これも49g/m^2のグラスを使っています。この主翼は、フラップとエルロンを分ける仕様になっていますので、エルロン部の補強がSG2のものと異なり、
+  エルロンサーボ用の補強が主翼中央のスパーの後ろ側に入れてあります。それ以外の補強は同じです。</p>
+<p>
+  <a href="img/P1000107.jpg" target="blank" ><img src="img/P1000107.jpg" width="160" height="120" class="thumb" alt="主翼表"></a>
+  <a href="img/P1000108.jpg" target="blank" ><img src="img/P1000108.jpg" width="160" height="120" class="thumb" alt="主翼裏"></a>
+  <br>
+  表と裏です。翼端はオレンジと緑にしてあります。裏はどこかのサイトで見かけたものを真似して三角パターンです。視認性はどうでしょうね。
+  <br>
+  <img src="img/P1000106.jpg" width="160" height="120" class="thumb" alt="主翼表">
+  <img src="img/P1000105.jpg" width="160" height="120" class="thumb" alt="主翼表">
+  <br>
+  左翼も61g・右翼も61gです。この作り方だと61gぐらいになるんだと思うしかないですね(笑)。<br>
+  この主翼にはOKのS1108を4つ使う予定です。4.7gが4つで18.8g。S1809が2つで18gと比べて1gぐらいの重量増ですむはずなのですが、
+  ワイヤやリンケージなどでもう何gか必要なので、全体では10gくらいの重量増かもしれません。それと、サーボの数が増えるので、
+  バッテリーももう少し大きいのを積む必要があることを考えると、全備250gを切るのは難しいかなぁ。
+</p>
+
+
+<h2> いろいろな情報 </h2>
+<p>製作にあたって集めたテクニックや道具や材料などの情報を並べていこうと思います。
+</p>
+</body>
+</html>

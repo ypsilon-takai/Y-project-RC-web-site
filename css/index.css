@@ -1,0 +1,64 @@
+ul.button02a {
+	width: 140px;/*↓の幅+15px*/
+	margin: 20px 10px;
+	padding: 0;
+	font-size: 14px;/*フォントサイズ*/
+	font-family: Verdana,Arial,sans-serif;
+}
+.button02a li {
+	list-style: none;
+	border: solid 1px #848485;/*外枠の色*/
+	margin: 0.5em 0;/*メニュー間の間隔*/
+	padding: 0;
+}
+.button02a li a {
+	display: block;
+	width: 125px;/*リンクの幅*/
+	margin: 0 0 0 0;
+	padding: 2px 0 3px 3px;
+	border-left: solid 10px #CACACD;/*左側の着色部分*/
+	color: #414161;/*文字色*/
+	background-color: #FFFFFF;
+	text-decoration: none;
+}
+.button02a li a .link{
+	border-bottom: dashed 1px #816151;/*点線部分*/
+	padding: 0 0 0 2px;
+}
+.button02a a:hover{
+	background-color: #FBFAFF;
+	border-color: #CACAEE;
+}
+
+
+ul.button02b {
+	width: 140px;/*↓の幅+15px*/
+	margin: 10px;
+	padding: 0;
+	font-size: 14px;/*フォントサイズ*/
+	font-family: Verdana,Arial,sans-serif;
+}
+.button02b li {
+	list-style: none;
+	border: solid 1px #848485;/*外枠の色*/
+	margin: 2em 0;/*メニュー間の間隔*/
+	padding: 0;
+}
+.button02b li a {
+	display: block;
+	width: 125px;/*リンクの幅*/
+	margin: 0 0 0 0;
+	padding: 2px 0 3px 3px;
+	border-left: solid 10px #212151;/*左側の着色部分*/
+	color: #FFFFFF;/*文字色*/
+	background-color: #515181;
+	text-decoration: none;
+}
+.button02b li a .link{
+	border-bottom: dashed 1px #CACADA;/*点線部分*/
+	padding: 0 0 0 2px;
+  }
+.button02b a:hover{
+	background-color: #B14141;
+	border-color: #581815;
+  }

@@ -1,0 +1,70 @@
+ 
+Pole Cat Aeroplane Works
+CG Location by Dr. Mark Drela
+
+重心位置 
+  Dr. Mark Drela
+
+
+ CG Location Contrary to popular myth, airfoils do not have "ideal" CG locations -- airplanes do. The CG location should mainly depend on the wing planform, the tail arm, and the tail size. The wing airfoil is secondary. 
+
+俗説とは違って、翼型そのものは「標準の」重心位置を持っていません。機体が持っているものなのです。重心位置を決める主な要因は、翼の平面形や胴体後部(主翼より後ろ)の長さ、尾翼の大きさで、翼形はその次の要因となります。
+
+
+Another myth is that the glider's performance (L/D, sink rate, penetration, whatever) is strongly affected by CG position. It just ain't so. You might see the L/D change by only a few percent after a drastic CG change, assuming the elevator trim and/or decalage are readjusted correctly. The big effect is on handling and pitch behavior, which is far more important than a few percent in sink rate when flying in active air. 
+
+別の俗説に、グライダーの性能(揚抗比や沈下率、進入性、その他)は重心位置に強く影響を受けるというものがあります。これもやはり違います。試してみれば重心を大きく動かしても揚抗比がほんの数％しか変わらないことがわかるでしょう。エレベータートリムや主翼取付角と尾翼取付角の差(decalage)やその両方が正しく再調整されているのが前提ですが。重心位置は、主に取りまわしやピッチング方向の安定性に大きく影響します。これは沈下率の数％の違いよりも重要です。
+
+
+Where you want the CG to be should depend on personal preference and flying style. Some people fly with the CG well forward. Others seem to fly with the CG as far back as is tolerable. 
+
+重心位置をどこにしたらいいかということは、各自の好みや飛行のスタイルによって変わります。かなり前の重心位置を好む人もいれば、できる限り後ろにしている人もいます。
+
+
+To decide what's best for you, a good approach is to first identify the aftmost neutrally-stable CG location by dive test or whatever. Then move the CG ahead of that point by gradual amounts, until the glider behaves as you like. 
+
+自分に最もあった重心位置を決定するのに最良の方法は、まず、ダイブテストなどを行って、最も後ろよりの中立安定の位置に設定し、それから、グライダーが望みの特性になるまで少しずつ重心を前に移動していくというものです。
+
+
+So what to watch for? As a guide, here are some behavior pros and cons at the two extremes of the CG range. The idea is to strike a nice balance. 
+( refer to the PDF shown above, it can be downloaded here ) 
+
+では、何に気をつければいいのでしょう。参考として、極端な重心位置の場合の長所と短所を述べましょう。ねらいは、ちょうどいいバランス点を見つけることです。
+( 上のDFファイルを参照してください。ここからダウンロードすることもできます。)
+
+1) CG at the aft limit... glider continues in a straight line or tucks in very slightly when put into a dive from a slow glide. 
+
+重心が船尾側ぎりぎりの場合。--- 低速の直進からダイブしたときに、機体は直進するか、少し頭を下げます。
+
+
+Pro: Glider will strongly pitch up and slow down, or "balloon", when flying directly into the slightest lift, and dive down and speed up when flying directly out of lift. Obviously this behavior is a nice weak lift indicator, especially when very far away or directly overhead where you can't easily tell if the glider is going up or down. This type of "lift ahead" or "lift behind" indication via pitch change and airspeed is a good addition to the usual "lift to the side" indication via banking. 
+
+長所: ごく弱いリフトに正面から入ったときに、機体は大きく頭を上げ減速するか、balloonします。また、正面からリフトを出たときには急に頭を下げて加速します。これらの大きな挙動は、弱いリフトを検地するのに適しています。特に機体がとても遠くにあったり、真上にあるなどして、上昇しているのか下降しているのか判断するのが難しいときに有効です。このようなピッチング方向の姿勢の変化や速度の変化による「リフトが前にあること」や「リフトが後ろにあること」の検知が、バンク角による「リフトが横にあること」の検知に加わることになります。
+
+Con: Glider will not hold pitch trim, but will tend to stall or dive at the slightest disturbance. Lots of work is needed to constantly twiddle with the elevator. In turbulent thermals you have to fly faster than ideal to avoid occasional stalls.
+
+短所: 機体のピッチ方向の安定性が失われて、わずかな外乱に対しても、失速したり急降下したりしやすくなります。そのため、常にエレベータの操作が必要になります。大きなサーマルに入ったときには、時折発生する失速を防ぐため、理想よりも速い速度で飛行しなければならなくなります。
+
+
+2) CG well forward of aft CG limit... glider pulls out very quickly when put into a dive. 
+
+重心が船尾側ぎりぎりよりもかなり前にある場合 --- 急降下させると期待はすぐに上昇します。
+
+Pro: Glider will solidly hold pitch trim and airspeed, even in turbulence. When in a thermal, this allows flying nice and slow at minimum sink, with little risk of stalling from an upset. 
+
+長所: 荒れた気流に入ったときも、ピッチ方向は安定していて速度も変化しません。サーマル内でもきれいに低い速度で飛行でき、姿勢が乱れたときも失速しにくくなります。
+
+Con: Glider has little tendency to pitch up and slow down when flying straight into lift, but just plows steadily along. It will still directly rise in lift while staying level, but again this is not as obvious as a pitch change when directly overhead or very high up. The "lift to the side" indication via banking is unaffected, and should not enter into the CG position decision. 
+
+短所: 機体が正面からリフトに入ったときもわずかな機首上げと減速しか起こさず、まっすぐ進みます。リフトに進入したときも機体は水平を保ったまま上に持ち上げられるということで、繰り返しになりますが、これは機体が真上や高いところにある場合に、ピッチ方向の変化に比べてわかりにくい変化です。バンク角による「リフトが横にあること」の兆候は影響を受けませんので、重心位置の決定には関係ありません。
+
+
+
+--------------------------------------------------------------------------------
+
+( return to the Articles page ) 
+
+Denny Maize - denny@polecataero.com
+Orders and Info: (717) 789-0146 [primary] 
+  
+ 

@@ -1,0 +1,29 @@
+@charset "Shift_JIS";
+
+a:link, a:visited, a:hover, a:active, a:focus {
+	background-color:transparent;
+	border-width:thin;
+	border-style:none;
+	}
+
+a:link {
+	color:blue;
+	border-color:blue;
+	}
+a:visited {
+	color:blue;
+	border-color:gray;
+	}
+a:hover {
+	color:orange;
+	border-color:red;
+	}
+a:active {
+	color:red;
+	border-color:red;
+	}
+a:focus {
+	color:green;
+	border-color:red;
+	}
+

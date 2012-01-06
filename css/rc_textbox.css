@@ -1,0 +1,23 @@
+.title{/*タイトル部分*/
+  background-color: #DCDCDF;/*背景色*/
+  color: #221122;/*文字色*/
+  width: 98%;/*幅*/
+  padding: 2px 1em;
+  margin-left: 20px; 
+  border-left: double 17px #888888;/*左の二本線*/
+  border-right: dashed 2px #DCDCDF;/*右の点線*/
+  font-size: 14pt;/*文字サイズ*/
+  font-weight: bold;/*太字*/
+  font-family: Arial,sans-serif;
+  letter-spacing: 0.3em;/*文字間隔*/
+  }
+.text{
+  width: 95%;/*幅。上の幅から3だけマイナスして下さい*/
+  padding: 8px 4px 7px 9px;
+  margin: 0px 0px 20px 28px;
+  border-left: solid 1px #888888;/*枠色*/
+  border-bottom: solid 1px #989898;
+  border-right: dashed 2px #FDFDFD;
+  background-color: #FDFDFD;/*薄い背景色*/
+  font-size: 12pt;/*文字サイズ*/
+  }

@@ -1,0 +1,51 @@
+@charset "Shift_JIS";
+
+/*	このシートには、まき獨自のアレンジが
+	多分に施されてゐます。
+	オリジナルのシートに込められてゐた意圖は
+	半分ほどしか反映してゐません。
+*/
+
+table {
+	margin-top:1em;	
+	margin-bottom:1em;	
+	margin-right:auto;
+	margin-left:1em;
+	border-width:thin 0;
+	border-style:solid hidden;
+	border-color:black;
+	border-collapse:collapse;
+	border-spacing:0;
+	empty-cells:show;
+	padding:0.2em;
+	}
+
+caption {
+	color:black;
+	background-color:#fdfdfd;
+	text-align:center;
+	margin-right:auto;
+	margin-left:auto;
+	}
+
+th,td {
+	padding:0.2em;
+	border-style:solid;
+	border-width:thin;
+	border-color:#bbbbbb;
+	background-color:#fdfdfd;
+	}
+
+th {
+	color:#545474;
+	text-align:center;
+	}
+
+td {
+	color:black;
+	}
+
+thead th,tfoot th,tfoot td {
+	background-color:#ededed;
+	}
+

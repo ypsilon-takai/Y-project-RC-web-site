@@ -1,0 +1,88 @@
+
+div.link7{/*カテゴリ全体枠*/
+  color: #343434;/*文字色*/
+  font-size: 14px;/*文字サイズ*/
+  margin: 2.5em 1em 4em 3.5em;
+  border: solid 1px #9494A9;/*全体枠の色*/
+  width: 80%;/*全体の幅*/
+  }
+
+.link7 .cath{/*カテゴリタイトル部分の設定*/
+  background-color: #646468;/*背景色*/
+  color: #FEFEFF;/*文字色*/
+  font-weight: bold;
+  letter-spacing: 0.2em;
+  margin: 0 45% 0.5em 0;
+  padding: 0.3em 0.8em 0.2em 1em;
+  border-left: double 18px #FFFFFF;/*ページ背景色と同じに*/
+  position: relative;
+  z-index: 1;
+  top: -8px;
+  left: -9px;
+  white-space: nowrap;
+  }
+.link7 dl{/*リンク一つ分の枠の設定*/
+  margin: 1em -7px 1px 0;
+  padding: 0.4em;
+  border-style: solid dotted double double;
+  border-width: 1px 1px 1px 11px;
+  border-color: #949496;/*枠の色*/
+  position: relative;
+  z-index: 1;
+  left: -6px;
+  }
+.link7 .type1 dt{/*TYPE1のバナー部分の設定*/
+  margin: 0;
+  padding: 0.2em 0.4em;
+  }
+.link7 .type1 dd{/*TYPE1の説明文部分の設定*/
+  background-color: #F7F7F9;
+  margin: 0;
+  padding: 0.3em 0.4em;
+  }
+.link7 .type2 dt{/*TYPE2のバナー部分の設定*/
+  margin: 0;
+  padding: 13px 0px;
+  float: left;
+  clear: both;
+  width: 100px;/*幅。変更するときは下のmarginも広げてください*/
+  }
+.link7 .type2 dd{/*TYPE2の説明文部分の設定*/
+  background-color: #F7F7F9;
+  margin: 0 0 0 105px;
+  padding: 0.3em 0.8em;
+  }
+.link7 .type3 dt{/*TYPE3のリンク部分の設定*/
+  font-size: 12px;
+  font-family: Arial,sans-serif;
+  margin: 0;
+  padding: 0 1em 0.2em 1em;
+  border-bottom: dashed 1px #616168;
+  }
+.link7 .type3 dd{/*TYPE3の説明文部分の設定*/
+  background-color: #F7F7F9;
+  margin: 0;
+  padding: 0.5em 0.8em;
+  }
+img{
+  border: 0px;
+  }
+a:link{/*リンク色*/
+  color: #49396D;
+  text-decoration: none;
+  }
+a:visited{/*訪問済みリンク色*/
+  color: #46366A;
+  text-decoration: none;
+  }
+a:hover,a:active{/*アクティブリンク色*/
+  color: #2616CA;
+  }
+
+
+dd span.topic {
+	color: #3300FF;
+	font-size: 120%;
+	font-weight: bold;
+
+}

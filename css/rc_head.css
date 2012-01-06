@@ -1,0 +1,90 @@
+
+div.top22{/*全体枠*/
+  font-size: 12px;/*■全体の文字サイズ*/
+  font-family: Verdana,Arial,sans-serif;/*■全体の字体*/
+  color: #212125;/*■全体の文字色*/
+
+  }
+
+.top22 .main{/*帯部分*/
+  width: 100%;
+  position: absolute;
+  top: 0;
+  height: 100px;
+  overflow: hidden;
+  border-bottom: solid 1px #717191;/*中央の境界線の色*/
+  background-color: #FFFFFF;/*■上半分の背景色*/
+  }
+.top22 h1{
+  background-image: url("../data/013_bg.gif");/*模様用の背景画像*/
+  background-repeat: no-repeat;
+  background-position: -125px 0px;
+  background-color: #304890;/*■格子部分の色*/
+  font-size: 12px;/*■タイトルの文字サイズ*/
+  font-family: Tahoma,sans-serif;/*■タイトルの字体*/
+  font-weight: bold;
+  letter-spacing: 0.1em;
+  text-align: center;
+  margin: 0;
+  padding: 3px 30px 0 1px;
+  width: 250px;
+  height: 23px;
+  position: absolute;
+  bottom: 13px;
+  }
+.top22 .update{/*Updateの部分*/
+  color: #818185;
+  font-size: 10px;
+  text-align: right;
+  padding: 0 4px 2px 1em;
+  position: absolute;
+  bottom: 35px;
+  width: 100%;
+  }
+.top22 .menu{/*メニュー部分*/
+  font-size: 11px;/*■メニューの文字サイズ*/
+  padding: 3px 0 3px 0;
+  border-top: solid 3px #707090;/*■メニュー上部の枠線*/
+  position: absolute;
+  bottom: 13px;
+  left: 250px;
+  width: 100%;
+  height: 23px;
+  }
+.top22 .menu ul{
+  margin: 0;
+  padding: 0;
+  width: 50%;
+  }
+.top22 .menu li{
+  margin: 1px 20px 2px 10px;/*■メニュー間の間隔*/
+  list-style: none;
+  float: left;
+  }
+.top22 .item22{/*テキスト枠部分の設定*/
+  position: absolute;
+  top: 60%;/*■上からの位置*/
+  right: 0;/*■右端からの位置*/
+  width: 230px;/*■枠の幅*/
+  height: 120px;/*■枠の高さ*/
+  overflow: auto;
+  border-top: solid 1px #717191;
+  scrollbar-3dlight-color: #EAEAF2;
+  scrollbar-arrow-color: #808890;
+  scrollbar-darkshadow-color: #EAEAF2;
+  scrollbar-face-color: #EAEAF2;
+  scrollbar-highlight-color:#EAEAF2;
+  scrollbar-shadow-color: #EAEAF2;
+  scrollbar-track-color: #EAEAF2;
+  }
+.top22 .item22 p{/*テキスト枠の内容設定*/
+  color: #616177;
+  font-size: 11px;
+  line-height: 120%;
+  text-indent: none;
+  padding: 0.4em;
+  margin: 0 40px 0 15px;
+  }
+/* For IE Box */
+*{ box-sizing : border-box}
+*{ -moz-box-sizing : border-box}

@@ -1,0 +1,61 @@
+@charset "Shift_JIS";
+
+body	{
+	line-height:130%;
+	}
+
+p	{
+	line-height:150%;
+	}
+
+h1,h2,h3,h4,h5,h6	{
+	line-height:120%;
+	}
+
+h1	{
+	font-size:200%;
+	}
+
+h2	{
+	font-size:175%;
+	}
+
+h3	{
+	font-size:150%;
+	}
+
+h4	{
+	font-size:125%;
+	}
+
+h5	{
+	font-size:100%;
+	}
+
+h6	{
+	font-size:100%;
+	}
+
+a img {
+	border:none;
+	}
+
+dt {
+	color:#646484;
+	background-color:#efefef;
+	margin:0.25em 0;
+	padding:0.125em 1em;
+	}
+
+dd {
+	margin:0.25em 0 0.25em 1em;
+	}
+
+
+blockquote {
+	border-style:none double none double;
+	border-width:3px;
+	border-color:maroon;
+	margin:0.5em 1em;
+	padding:5px 15px
+	}

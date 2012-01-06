@@ -1,0 +1,126 @@
+
+<html>
+<head>
+<TITLE>Slack 8.0 導入メモ</TITLE>
+	<meta http-equiv="Content-Language" content="ja">
+	<meta http-equiv="Content-Type" content="text/html; charset=shift_jis">
+	<LINK href="../data/default.css" type=text/css rel=stylesheet>
+	<LINK href="../data/extended.css" type=text/css rel=stylesheet>
+	<LINK href="../data/yosi16.png" type=image/png rel=icon>
+</HEAD>
+<BODY>
+<DIV id=titlebar>
+<IMG id=titlebarright alt="" src="../data/yosi.png">
+</DIV>
+
+<p>
+現在のマシン構成はこんな感じです。最近のマシンと比べるとだいぶ見劣りのするスペックです。仕事で
+1.2G PenIIIを使っているのですが、アプリ起動の早さにびっくりします。でも、普段使っている分には
+起動時以外、あまりストレスを感じません。恩恵があるとすれば、多分、makeの時間の短縮なんでしょうね。
+gimpとか時間のかかるやつのmakeは早いほうがいいもの。でも、飯食ってる間に終わるくらいの
+時間だから、実際に困っているというほどでもないというのが実情。
+Windowをたくさん開いたままにしておく癖があるので、たくさんのメモリとDualHeadはもう
+手放せなくなっています。
+</p> <br>
+
+<table>
+<tr><td>種別</td> 
+    <td>自作AT互換機</td></tr>
+<tr><td> </td>
+    <td>1999年春頃作成　LinuxとWin2000のDualBoot(GRUB使用)</td></tr>
+<tr><td>ケース </td>
+    <td>ちょっと渋めの青　ミニタワー型　メーカは忘れてしまった。冷却用のFANがうるさいので、
+        静音型のに取り替えたけれど、あまり効果なし。電源を静かなものにしないとだめか。</td></tr>
+<tr><td>MB </td>
+    <td>AOpen AX6BC Pro</td></tr>
+<tr><td> </td>
+    <td>440BXです。</td></tr>
+<tr><td>CPU </td>
+    <td>PentiumIII 500MHz</td></tr>
+<tr><td> </td>  
+    <td>オーバークロックはしていません。</td></tr>
+<tr><td>メモリ </td>
+    <td>バルク品ばかり 256+64+64=384M</td></tr>
+<tr><td> </td>
+    <td>どれも1万円くらいで買ったもの。</td></tr>
+<tr><td>Grapic</td>
+    <td>Matrox Millenium 4MB</td></tr>
+<tr><td></td>
+    <td>Matrox G400 DualHead 32M</td></tr>
+<tr><td></td>
+    <td>Matrox好きですね。3Dにあんまり興味が無いので。2枚ざしでDualHeadにしています。</td></tr>
+<tr><td>HD</td>
+    <td>IBM　13G</td></tr>
+<tr><td></td>
+    <td>メインです。これを５G(Linux)+5G(Win)+3Gくらい(共有VFAT)+500M(SWAP)に分けています。</td></tr>
+<tr><td></td>
+    <td>WesternDesital　6G</td></tr>
+<tr><td></td>
+    <td>データ保存とバックアップ・CD-R焼きworkエリア</td></tr>
+<tr><td>NIC</td>
+    <td>Laneed</td></tr>
+<tr><td></td>
+    <td>Realtekの石を使っています。linuxではne2k-pciで対応。</td></tr>
+<tr><td>Sound</td>
+    <td>SBLive! </td></tr>
+<tr><td></td>
+    <td>Linuxカーネル2.4で正式のドライバになったみたいです。</td></tr>
+<tr><td>SCSI</td>
+    <td>IOdata</td></tr>
+<tr><td>CD-R</td>
+    <td>TEAC 8倍速</td></tr>
+<tr><td>DAT</td>
+    <td>近くにPC-Depoができたんで、覗きにいったらジャンクのDATが2000円で売っていたんで
+買ってきました。つけてみたらちゃんと認識して、ちゃんと動いた。しかもDDS2。メーカーはHPのロゴがついているけど、
+OEMで元は忘れてしまった。</td></tr>
+<tr><td>モニター</td>
+    <td>NANAO E55D 17in　CRT</td></tr>
+<tr><td></td>
+    <td>NANAO L66 18in　LCD</td></tr>
+<tr><td></td>
+    <td>NANAO好き。CRTの方がMilleniumに刺さっていて、サブモニターです。</td></tr>
+<tr><td>マウス</td>
+    <td>Logitech MarbleFX</td></tr>
+<tr><td></td>
+    <td>狭い机にはトラックボール。 Xにパッチをあててスクロールが使えるようにしてあります。</td></tr>
+<tr><td>タブレット</td>
+    <td>intuous 600i</td></tr>
+<tr><td></td>
+    <td>お絵かきには必須ですね。<br>
+			XF86 3.3.6 から使っているので、シリアル接続です。カーネルが対応したことでUSB接続の
+			ものも使えるようになったようです。</td></tr>
+<tr><td>プリンター</td>
+    <td>HP 710C</td></tr>
+<tr><td></td>
+    <td>前面給紙が気に入ったのと、安かったので買っちまいました。
+			年賀状印刷くらいにしか使っていなかったんだけど、デジカメを買ってから
+			やっぱり印刷はきれいなほうがいいなと思い始めています。</td></tr>
+<tr><td></td>
+    <td></td></tr>
+<tr><td></td>
+    <td></td></tr>
+<tr><td></td>
+    <td></td></tr>
+<tr><td></td>
+    <td></td></tr>
+<tr><td></td>
+    <td></td></tr>
+</table>
+
+
+
+</body>
+</html>
+
+
+	
+
+
+
+
+
+
+
+
+
+

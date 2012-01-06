@@ -1,0 +1,37 @@
+@charset "Shift_JIS";
+
+table.top {
+	margin-top:5em;	
+	margin-bottom:5em;	
+	margin-right:auto;
+	margin-left:5em;
+	border:none;
+	empty-cells:show;
+	padding:2em;
+	}
+
+th.top,td.top {
+	padding:0.2em;
+	border:none;
+	border-style:solid;
+	border-width:thin;
+	border-color:#bbbbbb;
+	background-color:#fdfdfd;
+	}
+
+td.topitem {
+	border-style:solid;
+	border-width:thin;
+	border-botom:thin;
+	border-left:none;
+	border-right:none;
+	border-top:none;
+	border-color:#bbbbbb;
+	background-color:#fdfdfd;
+	color:black;
+	}
+
+thead th,tfoot th,tfoot td {
+	background-color:#ededed;
+	}
+

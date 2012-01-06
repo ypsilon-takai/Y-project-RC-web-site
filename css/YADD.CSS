@@ -1,0 +1,43 @@
+SPAN.newstitle {
+	FLOAT: left
+}
+SPAN.newsdate {
+	FLOAT: right
+}
+DIV#titlebar {
+	HEIGHT: 100px
+}
+#ymenu {
+	BORDER-RIGHT: #d0d0d0 1px solid; 
+	BORDER-LEFT: #d0d0d0 0px solid; 
+	BORDER-TOP: #d0d0d0 0px solid; 
+	BORDER-BOTTOM: #d0d0d0 0px solid; 
+	PADDING-RIGHT: 10px; 
+	PADDING-LEFT: 10px; 
+	PADDING-TOP: 20px; 
+	PADDING-BOTTOM: 10px; 
+	FONT-WEIGHT: bold; 
+	BACKGROUND: #f5f5f5; 
+	VERTICAL-ALIGN: top; 
+	COLOR: black; 
+	WHITE-SPACE: nowrap
+}
+A.ymenuitem {
+	FONT-WEIGHT: bold; 
+	BACKGROUND: none transparent scroll repeat 0% 0%; 
+	COLOR: #991e1e; 
+	TEXT-DECORATION: none;
+	MARGIN-BOTTOM: 10px;
+	HEIGHT: 20px;
+	BORDER: none 
+	border-style:none
+}
+IMG {
+	VERTICAL-ALIGN: top;
+	MARGIN-TOP: 10px;
+	MARGIN-BOTTOM: 10px;
+}
+IMG.inline {
+	VERTICAL-ALIGN: baseline;
+	MARGIN: 15px;
+}

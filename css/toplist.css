@@ -1,0 +1,183 @@
+/* LUL1.0 :: Generated CSS [Created: Mon May 21 2007 23:51:32 GMT+0900 (Tokyo Standard Time)] :: http://www.listulike.com/ */
+.toplist,.toplist li,.toplist ul {
+	margin:0;
+	padding:0;
+	list-style-type:none;
+	}
+.toplist {
+	position:fixed;
+	left:0;
+	top:0;
+	z-index:19001;
+	width:20em;
+	cursor:default !important;
+	border:none;
+	text-align:left;
+	}
+* html .toplist {
+	position:absolute;
+	}
+ul[id="toplist"] {
+	position:absolute;
+	}
+ul/**/[id="toplist"] {
+	position:fixed;
+	}
+.toplist {
+	background-image:none;
+	background-color:white;
+	float:left;
+	width:100%;
+	}
+ul[class="toplist"] {
+	float:none;
+	}
+ul/**/[class="toplist"] {
+	float:left;
+	}
+.toplist {
+	margin-top:0;
+	top:15px;
+	}
+@media screen,projection {
+	.toplist {
+	margin-top:15px;
+	top:0}}
+@media screen,projection {
+	.toplist:not(:nth-child(n)) {
+	margin-top:0;
+	top:15px;
+	}}
+.toplist>li:first-child {
+	margin-left:15px;
+	}
+@media Screen,Projection {
+	.toplist>li:first-child {
+	margin-left:0;
+	margin-right:0;
+	}}
+@media screen,projection {
+	.toplist:not(:nth-child(n))>li:first-child {
+	margin-left:15px;
+	}}
+.toplist li {
+	left:15px;
+	}
+@media screen,projection {
+	.toplist li {
+	position:relative;
+	}}
+ul[class^="toplist"] li {
+	left:0;
+	position:static;
+	}
+@media Screen,Projection {
+	ul[class^="toplist"] li {
+	left:15px;
+	position:relative;
+	}}
+@media screen,projection {
+	.toplist:not(:nth-child(n)) li {
+	position:static;
+	}}
+.toplist li {
+	display:block;
+	width:auto;
+	float:left;
+	}
+.toplist li a {
+	position:static;
+	display:block;
+	float:left;
+	white-space:nowrap;
+	}
+@media screen,projection {
+	.toplist l\i a {
+	position:relative;
+	float:none;
+	}}
+ul[class^="toplist"] li a {
+	position:relative;
+	float:none;
+	}
+@media screen,projection {
+	* html .toplist li a {
+	position:relative;
+	float:none;
+	}}
+@media screen,projection {
+	.toplist li a:not(:nth-child(n)) {
+	position:static;
+	float:left;
+	}}
+.toplist li,.toplist li:first-child {
+	margin-right:1px;
+	}
+.toplist a,.toplist a:link {
+	background-image:none;
+	background-color:#dddddd;
+	cursor:pointer !important;
+	z-index:1;
+	text-align:left;
+	border-style:solid;
+	border-color:#eeeeee #888888 #888888 #eeeeee;
+	padding-left:14px;
+	padding-right:14px;
+	padding-top:11px !important;
+	padding-bottom:11px !important;
+	text-decoration:none;
+	color:#ff9999;
+	border-width:1px;
+	font-style:normal;
+	font-family:tahoma,sans-serif;
+	font-weight:bold !important;
+	}
+.toplist a {
+	font-size:75%;
+	}
+.toplist li a,.toplist li a:link,.toplist li a:visited {
+	letter-spacing:1px !important;
+	}
+.toplist li a:visited {
+	background-image:none;
+	background-color:#dddddd;
+	border-width:1px;
+	color:#ff9999;
+	font-style:normal;
+	border-style:solid;
+	border-color:#eeeeee #888888 #888888 #eeeeee;
+	}
+.toplist li a:hover,.toplist li a:focus,.toplist li a.nohref:hover,.toplist li a.nohref:focus {
+	font-style:normal;
+	background-image:none;
+	background-color:#eeeeee;
+	text-decoration:none;
+	color:#ff2222;
+	border-color:#eeeeee;
+	border-style:solid;
+	border-width:1px;
+	}
+* html .toplist li a:active {
+	font-style:normal;
+	background-image:none;
+	background-color:#eeeeee;
+	text-decoration:none;
+	color:#ff2222;
+	border-color:#eeeeee;
+	border-style:solid;
+	border-width:1px;
+	}
+
+@media screen,projection {
+	* html .toplist li {
+	display:inline;
+	}}
+@media screen,projection {
+	* html .toplist li {
+	display/**/:block;
+	float/**/:left;
+	}}
+@media screen,projection {
+	* html .toplist li {
+	clear:none;
+	}}
